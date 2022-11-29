@@ -5,6 +5,7 @@ import Contact from '../components/Contact'
 import Experience from '../components/Experience'
 import Header from '../components/Header'
 import Profil from '../components/Profil'
+import Projects from '../components/Projects'
 
 const Home: NextPage = () => {
   return (
@@ -30,9 +31,14 @@ const Home: NextPage = () => {
         <Experience />
       </section>
       
+      <section id="Projects" className="snap-center">
+        <Projects />
+      </section>
+      
       <section id="Contact" className="snap-start">
         <Contact />
       </section>
+      
       
     </div>
   )
